@@ -4,14 +4,15 @@ body {
 }
 
 .avatar {
-    width: 150px;
+    width: 250px;
     border: 3px solid #dbb42c;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
 }
 
 .card {
-    width: 480px;
+    width: 900px;
+    line-height: 50px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -40,6 +41,9 @@ body {
 .name3:hover {
   animation: bounce 0.5s ease-in-out;
 }
+.name4:hover {
+  animation: bounce 0.5s ease-in-out;
+}
 .border-blue {
     border: 1px dotted blue;
 }
@@ -48,4 +52,6 @@ img:hover {
   transform: scale(1.2);
 }
 
-
+.name4 {
+  text-decoration-color: #111d13;
+}
